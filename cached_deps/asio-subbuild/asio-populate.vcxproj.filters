@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\asio-subbuild\CMakeFiles\3d941576032f89da386462a116ec7adf\asio-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\asio-subbuild\CMakeFiles\3d941576032f89da386462a116ec7adf\asio-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\asio-subbuild\CMakeFiles\3d941576032f89da386462a116ec7adf\asio-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\asio-subbuild\CMakeFiles\3d941576032f89da386462a116ec7adf\asio-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\asio-subbuild\CMakeFiles\3d941576032f89da386462a116ec7adf\asio-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\asio-subbuild\CMakeFiles\3d941576032f89da386462a116ec7adf\asio-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\asio-subbuild\CMakeFiles\3d941576032f89da386462a116ec7adf\asio-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\asio-subbuild\CMakeFiles\3d941576032f89da386462a116ec7adf\asio-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\asio-subbuild\CMakeFiles\acabfa652fea9026e541c6bdcb3807e9\asio-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\asio-subbuild\CMakeFiles\6abb6a31ce2c18fa1b9533de209961b4\asio-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\asio-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Jubal\opendnp3\build\_deps\asio-subbuild\CMakeFiles\asio-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{02399646-64D4-3F25-99E6-F47E49BA6495}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

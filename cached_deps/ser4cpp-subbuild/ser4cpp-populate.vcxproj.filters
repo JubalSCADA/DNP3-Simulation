@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\ser4cpp-subbuild\CMakeFiles\80ecdb1220ed51c3055843736dce3423\ser4cpp-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\ser4cpp-subbuild\CMakeFiles\80ecdb1220ed51c3055843736dce3423\ser4cpp-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\ser4cpp-subbuild\CMakeFiles\80ecdb1220ed51c3055843736dce3423\ser4cpp-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\ser4cpp-subbuild\CMakeFiles\80ecdb1220ed51c3055843736dce3423\ser4cpp-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\ser4cpp-subbuild\CMakeFiles\80ecdb1220ed51c3055843736dce3423\ser4cpp-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\ser4cpp-subbuild\CMakeFiles\80ecdb1220ed51c3055843736dce3423\ser4cpp-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\ser4cpp-subbuild\CMakeFiles\80ecdb1220ed51c3055843736dce3423\ser4cpp-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\ser4cpp-subbuild\CMakeFiles\80ecdb1220ed51c3055843736dce3423\ser4cpp-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\ser4cpp-subbuild\CMakeFiles\e28f6c8f343bc6c9ad9ac8223c1ac6c9\ser4cpp-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\ser4cpp-subbuild\CMakeFiles\e84c4b748a18d05dcbc9473b97ef0851\ser4cpp-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Jubal\opendnp3\build\_deps\ser4cpp-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Jubal\opendnp3\build\_deps\ser4cpp-subbuild\CMakeFiles\ser4cpp-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{646DAB03-AB46-3261-86D8-8D6C327A0300}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
