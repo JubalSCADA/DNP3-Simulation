@@ -42,9 +42,9 @@ IN CMD
 
 c:\Users\<Your_User> > git clone https://github.com/JubalSCADA/DNP3-Simulation.git # This clones the git repository to the path
 c:\Users\<Your_User> > cd opendnp3 # changes path to source code
-c:\Users\<Your_User>/opendnp3> mkdir build
-c:\Users\<Your_User>\opendnp3> cd build
-c:\Users\<Your_User>\opendnp3\build> xcopy /E /I /Y ..\cached_deps _deps # Copies asio files into build
+c:\Users\<Your_User>/opendnp3> mkdir build # creates a build folder for all build files
+c:\Users\<Your_User>\opendnp3> cd build # changes to build directory
+c:\Users\<Your_User>\opendnp3\build> xcopy /E /I /Y ..\cached_deps _deps # Copies asio files into build folder
 c:\Users\<Your_User>\opendnp3\build> cmake .. -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DDNP3_EXAMPLES=ON # This prompts cmake to generate files from source code
 c:\Users\<Your_User>\opendnp3\build>cmake --build . # This prompts Cmake to compile all files.
 
