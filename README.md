@@ -1,57 +1,50 @@
-End-of-Life
-========
+What is OpenDNP3?
 
-This project will reach end-of-life on September 1st, 2022. On this date:
+OpenDNP3 is an open-source implementation of the DNP3 (Distributed Network Protocol) used in SCADA systems, especially for electric utility automation. It's written in C++, with bindings in .NET and Java.
 
-1. This repository will be [archived](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories), making it read-only.
-2. The Google Group will be locked, but will remain publicly searchable.
-3. The project homepage, this README, and group will be updated to indicate that the project is end-of-life.
+DNP3 is the industry standard for communication between:
 
-We will consider bug fixes from the community or support requests from existing customers up until this date.
+SCADA masters
 
-Please make appropriate plans if you are using this library in production, e.g.:
+Outstations/RTUs
 
-* Dedicate personnel to maintaining your own internal copy of the library.
-* Consider a commercial library such as the one offered by [Step Function I/O](https://stepfunc.io/products/libraries/dnp3/).
+OpenDNP3 simulates both ends of this communication, making it ideal for testing, learning, and developing SCADA-related tools.
 
-You can read about this decision in these blog posts:
+Using OpenDNP3, you can simulate and experiment with:
 
-* [OpenDNP3 Retrospective](https://stepfunc.io/blog/opendnp3-retrospective/)
-* [DNP3 1.0.0 (Rust)](https://stepfunc.io/blog/dnp3_1_0_0/)
+1. Master-Slave (Outstation) Communication
+See how a SCADA master polls outstations
+
+Observe responses carrying analog, binary, or counter data
+
+Understand function codes like READ, WRITE, CONFIRM, etc.
+
+2. Event Classes & Polling
+Learn the difference between Class 0 (static) and Class 1/2/3 (event) data
+
+Watch periodic polling and unsolicited messages in action
+
+3. Time Synchronization
+Simulate how time is managed and synced between devices
+
+4. Testing SCADA Apps or Analyzers
+Pipe OpenDNP3 traffic through Wireshark or your own Python analyzer
+
+Validate how real-time data flows and reacts to network events
 
 
-Overview
-========
+HOW TO GET STARTED
+First ensure that Cmake is installed on the system - to install cmake visit: https://cmake.org/download/ and download Windows x64 Installer: (its under binary distributions)
+Once Cmake is fully set up -
 
-Opendnp3 is a portable, scalable, and rigorously tested implementation 
-of the [DNP3](https//www.dnp.org) protocol stack written in C++11. The library 
-is designed for high-performance applications like many concurrent TCP
-sessions or huge device simulations. It also embeds with a small footprint on Linux.
 
-Build status
-============
+IN CMD
 
-| Branch       | Build | Code coverage | Quality |
-| ------------ | ----- | ------------- | ------- |
-| release-2.x  | [![CI 2.x](https://github.com/dnp3/opendnp3/workflows/CI/badge.svg?branch=release-2.x)](https://github.com/dnp3/opendnp3/actions?query=branch%3Arelease-2.x) | [![Codecov](https://codecov.io/gh/dnp3/opendnp3/branch/release-2.x/graph/badge.svg)](https://codecov.io/gh/dnp3/opendnp3/branch/release-2.x) | - |
-| develop      | [![CI 2.x](https://github.com/dnp3/opendnp3/workflows/CI/badge.svg?branch=develop)](https://github.com/dnp3/opendnp3/actions?query=branch%3Adevelop) | [![Codecov](https://codecov.io/gh/dnp3/opendnp3/branch/develop/graph/badge.svg)](https://codecov.io/gh/dnp3/opendnp3/branch/develop) | [![Language grade: C/C++](https://img.shields.io/lgtm/grade/cpp/g/dnp3/opendnp3.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/dnp3/opendnp3/context:cpp) |
+c:\Users\<Your_User> > git clone https://github.com/JubalSCADA/DNP3-Simulation.git # This clones the git repository to the path
+c:\Users\<Your_User> > cd opendnp3 # changes path to source code
+c:\Users\<Your_User>/opendnp3> mkdir build
+c:\Users\<Your_User>\opendnp3> cd build
+c:\Users\<Your_User>\opendnp3\build> xcopy /E /I /Y ..\cached_deps _deps # Copies asio files into build
+c:\Users\<Your_User>\opendnp3\build> cmake .. -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DDNP3_EXAMPLES=ON # This prompts cmake to generate files from source code
+c:\Users\<Your_User>\opendnp3\build>cmake --build . # This prompts Cmake to compile all files.
 
-Documentation
-=============
-
-The documentation can be found on the [project homepage](http://dnp3.github.io/#documentation).
-
-If you want to help contribute to the official guide its in [this repo](https://github.com/dnp3/opendnp3-guide).
-
-License
-=============
-
-Licensed under the terms of the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html).
-
-Copyright (c) 2010, 2011 Green Energy Corp
-
-Copyright (c) 2013 - 2020 Step Function I/O LLC
-
-Copyright (c) 2020 - 2022 Step Function I/O LLC
-
-Copyright (c) 2010 - 2022 various contributors
